@@ -14,7 +14,7 @@
 
 // clang-format off
 void printUsage(){
-  std::cerr << "Usage: main [options] " << std::endl;
+  std::cerr << "Usage: tsdf [options] " << std::endl;
   std::cerr << "-p:                 point cloud prefix" << std::endl;
   std::cerr << "-m  <int>:          maximum number of scans that should be processed" << std::endl;
   std::cerr << "-e  <int>:          process only every e-th scan" << std::endl;
