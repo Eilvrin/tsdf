@@ -1,6 +1,12 @@
 # tsdf
 ### Overview
 Code to fuse multiple Kinect point clouds into a truncated signed distance function (TSDF) voxel volume. Visualization of 3D surface meshes with Marching Cubes algorithm. 
+### How to build
+```
+mkdir build; cd build
+cmake .. 
+make
+```
 ### Usage: 
 `
 ./tsdf [options]`
