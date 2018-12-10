@@ -28,3 +28,4 @@ make
 ./tsdf -p ../data/fr1-room/ncloud -m 10 -r 0.01 -td 0.02 -c
 
 ```
+![Example](example.png)
